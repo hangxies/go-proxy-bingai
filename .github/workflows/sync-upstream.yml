@@ -23,3 +23,5 @@ jobs:
           target_sync_branch: master
           target_repo_token: ${{ secrets.GITHUB_TOKEN }} # automatically generated, no need to set
           test_mode: false
+- name: Install Wrangler
+  run: /home/runner/setup-pnpm/node_modules/.bin/pnpm add wrangler@latest
