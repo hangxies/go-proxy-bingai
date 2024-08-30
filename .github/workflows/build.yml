@@ -1,3 +1,5 @@
+      - name: Install Wrangler
+        run: npm install -g @cloudflare/wrangler@latest
 name: Build Go-Proxy-BingAI
 on:
   push:
